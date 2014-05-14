@@ -10,16 +10,14 @@ Gem::Specification.new do |s|
   s.version = ENV["VERSION"].dup
 
   s.authors = ["Zbatery hackers"]
-  s.date = Time.now.utc.strftime('%Y-%m-%d')
   s.description = readme_description
-  s.email = %q{rainbows-talk@rubyforge.org}
+  s.email = %q{rainbows-public@bogomips.org}
   s.executables = %w(zbatery)
   s.extra_rdoc_files = extra_rdoc_files(manifest)
   s.files = manifest
   s.homepage = Wrongdoc.config[:rdoc_url]
   s.summary = summary
   s.rdoc_options = rdoc_options
-  s.require_paths = %w(lib)
   s.rubyforge_project = %q{rainbows}
 
   # rainbows has a boatload of optional dependencies

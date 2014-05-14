@@ -14,7 +14,7 @@ for basic functionality.
 
 == Features
 
-* Designed for {Rack}[http://rack.rubyforge.org/], the standard for
+* Designed for {Rack}[http://rack.github.io/], the standard for
   modern Ruby HTTP applications.
 
 * Configuration files are compatible with Rainbows!, a superset
@@ -22,7 +22,7 @@ for basic functionality.
   {DSL}[http://unicorn.bogomips.org/Unicorn/Configurator.html].
 
 * Inherits all features and concurrency models Rainbows! supports
-  (and ever will support): http://rainbows.rubyforge.org/Summary.html
+  (and ever will support): http://rainbows.bogomips.org/Summary.html
 
 * Web Sockets support (via {Cramp}[http://cramp.in/])
 
@@ -36,12 +36,7 @@ See the included {LICENSE}[link:LICENSE.html] file for more details.
 
 == Install
 
-You may download the tarball from the Rainbows project page on Rubyforge
-and run setup.rb after unpacking it (and installing Unicorn and Rainbows!):
-
-http://rubyforge.org/frs/?group_id=8977
-
-You may also install it via RubyGems on RubyGems.org:
+You may install it via RubyGems on RubyGems.org:
 
   gem install zbatery
 
@@ -76,7 +71,7 @@ config file:
     end
 
 See the Rainbows! configuration
-{documentation}[http://rainbows.rubyforge.org/Rainbows/Configurator.html]
+{documentation}[http://rainbows.bogomips.org/Rainbows/Configurator.html]
 for more details.
 
 == Disclaimer
@@ -119,6 +114,6 @@ UNIX-specific) test suites.
 == Contact
 
 All feedback (bug reports, user/development discussion, patches, pull
-requests) go to the mailing list/newsgroup.  We are currently
+requests) go to the mailing list/public-inbox.  We are currently
 borrowing the Rainbows! mailing list since most of our code (and
-problems) are related to Rainbows! mailto:rainbows-talk@rubyforge.org.
+problems) are related to Rainbows! mailto:rainbows-public@bogomips.org.

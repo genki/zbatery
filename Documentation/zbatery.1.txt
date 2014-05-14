@@ -1,5 +1,5 @@
 % zbatery(1) Zbatery User Manual
-% Zbatery hackers <rainbows-talk@rubyforge.org>
+% Zbatery hackers <rainbows-public@bogomips.org>
 % December 9, 2009
 
 # NAME
@@ -147,6 +147,6 @@ not require them.
 * [Rainbows! RDoc][4]
 
 [1]: http://zbatery.bogomip.org/
-[2]: http://rack.rubyforge.org/doc/
+[2]: http://rdoc.info/gems/r#/gems/rack/frames
 [3]: http://wiki.github.com/rack/rack/tutorial-rackup-howto
-[4]: http://rainbows.rubyforge.org/
+[4]: http://rainbows.bogomips.org/

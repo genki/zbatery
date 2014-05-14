@@ -1,7 +1,7 @@
 = Frequently Asked Questions about Zbatery
 
 Be sure to check out the Rainbows!
-{FAQ}[http://rainbows.rubyforge.org/FAQ.html] and the Unicorn
+{FAQ}[http://rainbows.bogomips.org/FAQ.html] and the Unicorn
 {FAQ}[http://unicorn.bogomips.org/FAQ.html] as well.
 
 
@@ -26,7 +26,7 @@ the options Rainbows! provides instead of being tied to one.
 
 === What's Rack?  Do you support Rails?
 
-{Rack}[http://rack.rubyforge.org/] is a minimal specification between
+{Rack}[http://rack.github.io/] is a minimal specification between
 Ruby web servers (e.g. Mongrel, Zbatery) and Ruby web frameworks (e.g.
 Rails, Sinatra, Camping).  Instead of requiring a new handler for every
 framework a server wants to support, web servers only need to support
