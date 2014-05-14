@@ -34,5 +34,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<wrongdoc>, "~> 1.6")
   s.add_development_dependency(%q<isolate>, "~> 3.1")
 
-  # s.licenses = %w(GPLv2 Ruby) # accessor not compatible with older RubyGems
+  s.licenses = %w(GPLv2+ Ruby)
 end
