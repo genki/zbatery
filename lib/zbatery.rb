@@ -92,7 +92,11 @@ module Rainbows
       end
 
       if ready_pipe
-        ready_pipe.syswrite($$.to_s)
+        begin
+          ready_pipe.syswrite($$.to_s)
+        rescue => e
+          logger.warn("grandparent died too soon?: #{e.message} (#{e.class})")
+        end
         ready_pipe.close
         self.ready_pipe = nil
       end
