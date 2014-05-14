@@ -17,6 +17,7 @@ end
 # :stopdoc:
 # override stuff we don't need or can't use portably
 module Rainbows
+  @readers = [] # rainbows 4.6.x compatibility
 
   module Base
     # master == worker in our case
