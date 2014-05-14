@@ -4,7 +4,7 @@ require 'rainbows'
 Rainbows.forked = true
 module Zbatery
 
-  VERSION = "4.1.2"
+  VERSION = "4.2.0"
 
   Rainbows::Const::RACK_DEFAULTS["SERVER_SOFTWARE"] = "Zbatery #{VERSION}"
 
