@@ -11,9 +11,9 @@
 log/
 pkg/
 /vendor
-/NEWS
-/ChangeLog
+/NEWS*
 /.manifest
 /GIT-VERSION-FILE
 /man
 /LATEST
+*_1

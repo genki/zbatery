@@ -1,20 +1,14 @@
 all::
 RSYNC_DEST := zbatery.bogomip.org:/srv/zbatery
-rfproject := rainbows
 rfpackage := zbatery
+PLACEHOLDERS := zbatery_1
+
 man-rdoc: man html
-	for i in $(man1_rdoc); do echo > $$i; done
 doc:: man-rdoc
 include pkg.mk
-ifneq ($(VERSION),)
-release::
-	$(RAKE) publish_news VERSION=$(VERSION)
-	$(RAKE) fm_update VERSION=$(VERSION)
-endif
 
 base_bins := zbatery
 bins := $(addprefix bin/, $(base_bins))
-man1_rdoc := $(addsuffix _1, $(base_bins))
 man1_bins := $(addsuffix .1, $(base_bins))
 man1_paths := $(addprefix man/man1/, $(man1_bins))
 clean:
@@ -22,9 +16,9 @@ clean:
 
 man html:
 	$(MAKE) -C Documentation install-$@
+
 pkg_extra += $(man1_paths)
 doc::
-	$(RM) $(man1_rdoc)
 
 all:: test
 test:
