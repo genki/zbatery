@@ -8,6 +8,10 @@ Zbatery supports your choice of all the thread/fiber/event/actor-based
 concurrency models and Rack middleware that Rainbows! supports (or will
 ever support) in a single process.
 
+If you're on GNU/Linux and overwhelmed by options in zbatery,
+consider {yahns}[http://yahns.yhbt.net/] as it has fewer options,
+optional fork usage, and more energy-efficient during non-peak traffic.
+
 Zbatery will still exploit certain features of Unix for transparent
 upgrades, log reopening, and graceful stops, but does not rely on them
 for basic functionality.
